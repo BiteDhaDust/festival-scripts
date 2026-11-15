@@ -18,3 +18,4 @@ cat rapports/vendredi.csv
 for jour in vendredi samedi dimanche
 do
 	grep $jour billetterie/ventes.csv >>
+echo "Rapport terminé"
